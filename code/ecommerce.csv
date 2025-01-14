@@ -1,0 +1,11 @@
+ProductID,ProductName,Category,Price,QuantityInStock,Rating,DateAdded
+P001,Wireless Mouse,Electronics,19.99,250,4.5,2024-01-01
+P002,Laptop Stand,Accessories,29.99,150,4.7,2024-01-03
+P003,USB-C Cable,Electronics,9.99,500,4.3,2024-01-05
+P004,Coffee Mug,Home,12.49,300,4.6,2024-01-08
+P005,Office Chair,Furniture,129.99,75,4.8,2024-01-10
+P006,LED Desk Lamp,Home,24.99,200,4.4,2024-01-12
+P007,Wireless Earbuds,Electronics,49.99,100,4.2,2024-01-15
+P008,Fitness Tracker,Health,99.99,50,4.9,2024-01-18
+P009,Running Shoes,Fashion,79.99,120,4.6,2024-01-20
+P010,Smartphone Case,Accessories,14.99,400,4.1,2024-01-25

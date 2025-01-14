@@ -1,0 +1,11 @@
+PatientID,Name,Age,Gender,Diagnosis,Medication,AppointmentDate,Doctor,Contact
+P001,John Doe,34,Male,Hypertension,Amlodipine,2025-02-10,Dr. Smith,555-1234
+P002,Jane Smith,28,Female,Diabetes,Metformin,2025-02-12,Dr. Johnson,555-5678
+P003,Ali Khan,45,Male,Asthma,Salbutamol,2025-02-15,Dr. Lee,555-9101
+P004,Maria Gonzalez,52,Female,Arthritis,Ibuprofen,2025-02-20,Dr. Brown,555-1122
+P005,Liam O'Brien,37,Male,Flu,Paracetamol,2025-01-18,Dr. White,555-3344
+P006,Emma Davis,62,Female,Osteoporosis,Alendronate,2025-03-01,Dr. Green,555-5566
+P007,Ravi Patel,50,Male,Hypertension,Lisinopril,2025-02-25,Dr. Smith,555-7788
+P008,Chen Wei,30,Female,Allergy,Loratadine,2025-03-05,Dr. Johnson,555-9900
+P009,Aisha Mohammed,43,Female,Thyroid Disorder,Levothyroxine,2025-02-18,Dr. Brown,555-2233
+P010,Michael Brown,39,Male,Migraine,Sumatriptan,2025-01-25,Dr. Green,555-4455
