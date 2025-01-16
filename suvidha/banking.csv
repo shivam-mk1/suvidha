@@ -1,0 +1,11 @@
+Customer_ID,Customer_Name,Gender,Age,Account_Type,Account_Balance,Branch,Transaction_ID,Transaction_Type,Transaction_Amount,Transaction_Date
+C001,John Doe,Male,35,Savings,15000.50,New York,T001,Deposit,2000.00,2023-12-01
+C002,Jane Smith,Female,28,Checking,8500.75,Los Angeles,T002,Withdrawal,500.00,2023-12-02
+C003,Robert Brown,Male,42,Savings,20000.00,Chicago,T003,Deposit,1000.00,2023-12-03
+C004,Emily Davis,Female,31,Checking,12500.20,Houston,T004,Withdrawal,300.00,2023-12-04
+C005,Michael Wilson,Male,29,Savings,18000.00,San Francisco,T005,Deposit,1500.00,2023-12-05
+C006,Sophia Taylor,Female,34,Checking,9500.50,Miami,T006,Withdrawal,700.00,2023-12-06
+C007,James Anderson,Male,45,Savings,22000.75,Dallas,T007,Deposit,2500.00,2023-12-07
+C008,Olivia Martinez,Female,27,Checking,10500.90,Seattle,T008,Withdrawal,450.00,2023-12-08
+C009,Liam Johnson,Male,33,Savings,19500.60,Denver,T009,Deposit,1800.00,2023-12-09
+C010,Ava White,Female,30,Checking,9700.40,Atlanta,T010,Withdrawal,600.00,2023-12-10
