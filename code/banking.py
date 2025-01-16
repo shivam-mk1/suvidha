@@ -1,7 +1,11 @@
 import google.generativeai as genai
+import pandas as pd
 
 # Configure the API with your key
 genai.configure(api_key="AIzaSyCRAYV-tMfWX3Hh4Aa44k1u1wOTQyw75jg")
+
+# Load the dataset
+data = pd.read_csv("banking.csv")
 
 # Define the context prompt to guide Gemini for entity detection
 context_prompt = (
@@ -26,7 +30,18 @@ context_prompt = (
 def detect_entities(query):
     model = genai.GenerativeModel("gemini-1.5-flash")
     response = model.generate_content(context_prompt + "\nQuery: " + query)
-    return response.text
+    detected_text = response.text
+
+    # Extract relevant entities from the response
+    detected_entities = {}  # Placeholder for parsed entities
+    for line in detected_text.split("\n"):
+        if ":" in line:
+            key, value = line.split(":", 1)
+            if key.strip() in data.columns:  # Check if the entity is relevant to the dataset
+                detected_entities[key.strip()] = value.strip()
+
+    # Return the list of detected entities relevant to the dataset
+    return detected_entities
 
 # Example usage
 query = "Can you provide the Transaction_Type and Transaction_Amount for Customer_ID 12345?"

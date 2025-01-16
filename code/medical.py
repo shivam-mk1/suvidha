@@ -1,7 +1,11 @@
 import google.generativeai as genai
+import pandas as pd
 
 # Configure the API with your key
 genai.configure(api_key="AIzaSyCRAYV-tMfWX3Hh4Aa44k1u1wOTQyw75jg")
+
+# Load the dataset
+data = pd.read_csv("medical.csv")
 
 # Define the context prompt to guide Gemini for entity detection
 context_prompt = (
@@ -27,6 +31,7 @@ def detect_entities(query):
     return response.text
 
 # Example usage
-query = "Can you provide the Diagnosis and Medication details for PatientID 56789?"
+query = "Give me the age and gender of Patient ID P010?"
 result = detect_entities(query)
 print("Detected Entities:\n", result)
+
