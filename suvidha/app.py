@@ -6,7 +6,7 @@ import google.generativeai as gen_ai
 load_dotenv()
 
 st.set_page_config(
-    page_title="Chat with Gemini-Pro!",
+    page_title="Chat with Suvidha!",
     page_icon=":brain:",
     layout="centered",
 )
@@ -19,7 +19,7 @@ model = gen_ai.GenerativeModel(model_name="tunedModels/ecommerce--sheet1-qur60c6
 if "chat_session" not in st.session_state:
     st.session_state.chat_session = model.start_chat(history=[])
 
-st.title("🧠 Gemini Pro - ChatBot")
+st.title("🧠 Suvidha - ChatBot")
 
 # Display chat history
 for message in st.session_state.chat_session.history:
