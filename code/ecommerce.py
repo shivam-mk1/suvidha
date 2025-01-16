@@ -35,7 +35,7 @@ def detect_entities(query):
     for line in detected_text.split("\n"):
         if ":" in line:
             key, value = line.split(":", 1)
-            if key.strip() in map(str.strip, data.columns):  # Check if the entity is relevant to the dataset
+            if key.strip() in map(str.strip, data.columns) or key.strip() == "Product ID":  # Include Product ID explicitly
                 detected_entities[key.strip()] = value.strip()
 
     # Return the list of detected entities relevant to the dataset

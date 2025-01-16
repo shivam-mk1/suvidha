@@ -34,4 +34,3 @@ def detect_entities(query):
 query = "Give me the age and gender of Patient ID P010?"
 result = detect_entities(query)
 print("Detected Entities:\n", result)
-
