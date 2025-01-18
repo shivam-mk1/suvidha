@@ -1,4 +1,3 @@
-PatientID,Name,Age,Gender,Diagnosis,Medication,AppointmentDate,Doctor,Contact
 P001,John Doe,34,Male,Hypertension,Amlodipine,2025-02-10,Dr. Smith,555-1234
 P002,Jane Smith,28,Female,Diabetes,Metformin,2025-02-12,Dr. Johnson,555-5678
 P003,Ali Khan,45,Male,Asthma,Salbutamol,2025-02-15,Dr. Lee,555-9101

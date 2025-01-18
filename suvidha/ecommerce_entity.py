@@ -4,8 +4,6 @@ import os
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=GOOGLE_API_KEY)
-
-# Load the dataset
 data = pd.read_csv("ecommerce.csv")
 
 # Define the context prompt to guide Gemini for entity detection
